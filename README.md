@@ -2,7 +2,7 @@
 
 Universal MCP plugin for Bitrix24 task management.
 
-The plugin is safe to publish as a private GitHub repository because it does not contain any real Bitrix24 webhook. Each installer provides their own incoming webhook during setup. The setup script stores it locally in `.bitrix-task-manager.json` and `.env`; both files are ignored by Git.
+The plugin is safe to publish as a public or private GitHub repository because it does not contain any real Bitrix24 webhook. Each installer provides their own incoming webhook during setup. The setup script stores it locally in `.bitrix-task-manager.json` and `.env`; both files are ignored by Git.
 
 ## Install Flow for AI Agents
 
