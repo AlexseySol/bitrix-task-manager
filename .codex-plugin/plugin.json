@@ -1,0 +1,35 @@
+{
+  "name": "bitrix-task-manager",
+  "version": "0.1.0",
+  "description": "Universal MCP plugin for Bitrix24 task management scoped to the webhook owner.",
+  "author": {
+    "name": "Bitrix Task Manager Maintainers"
+  },
+  "license": "MIT",
+  "keywords": [
+    "bitrix24",
+    "tasks",
+    "mcp",
+    "task-management"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Bitrix Task Manager",
+    "shortDescription": "Manage only the Bitrix24 tasks assigned to the webhook owner.",
+    "longDescription": "A universal MCP plugin for Bitrix24 task management. During installation an AI agent asks the user for their Bitrix24 incoming webhook URL, stores it locally, verifies it with profile, and scopes task tools to that user's own assigned tasks.",
+    "developerName": "Bitrix Task Manager Maintainers",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Show my open Bitrix24 tasks.",
+      "Create a Bitrix24 task for me.",
+      "Complete my Bitrix24 task by ID."
+    ],
+    "brandColor": "#2563EB"
+  }
+}

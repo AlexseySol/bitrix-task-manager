@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "bitrix-task-manager": {
+      "command": "node",
+      "args": [
+        "./dist/server.js"
+      ],
+      "env": {
+        "BITRIX_CONFIG_PATH": "./.bitrix-task-manager.json"
+      }
+    }
+  }
+}
